@@ -1,0 +1,96 @@
+GoPerform Help=====================================================================================
+Deliverable1:::
+Sprint4(FenixEdge App)
+1.Read data from Fenix, Enrich it and send to Edge Systems. 2.Code has to be in Camel so had to learn it and implement it from the existing As-Is codebase. 3.Had to implement resiliency, CMS logging, Email Alert etc. 4.Created all required documents like Testcase scenario's, Execution docs etc.
+
+Measured by:  Zero Post Delivery Defects Zero Defect leaked to QA Zero Escalations Less Schedule/Effort Variance
+
+Complete by: 2022-06-30 12:30:00.000
+Deliverable2:::
+Sprint5(Mar interface-NordpoolspotIntraday Api App)
+1.Read data from NordpoolspotIntraday and send to internal Kafka topic
+2.Upgraded the As-Is codebase to springboot. 
+3.Had to implement resiliency,CMS logging,Email Alert etc. 
+4.Created all required documents like Testcase scenario's, Execution docs etc.
+
+Measured by:  Zero Post Delivery Defects Zero Defect leaked to QA Zero Escalations Less Schedule/Effort Variance
+
+Deliverable3:::
+Sprint5(Mar interface-Usecase 1-3)
+1.It is a Flink Job to read data from NordpoolspotIntraday,Epex/Hupx kafka topics. Enrich them by there type and send destination Kafka topic
+2.Had to learn Flink to implement it from scratch. 
+3.Implemented resiliency,CMS logging,Email Alert etc. 
+4.Created all required documents like Testcase scenario's, Execution docs etc.
+Tasks i did till May-19=============================================================================
+Mar reporting sprint 5--
+NordpoolspotIntraday Api App/Flink job
+Description==in details add 5-6 pointers
+
+Criteria==
+Zero Post Delivery Defects
+Zero Defect leaked to QA
+Zero Escalations
+Less than 5% Schedule Variance
+Less Effort Variance
+Date==
+
+2.ADM Kafka training completed
+
+3.Do some cert on future date
+
+4.FenixEdge App
+
+Pending tasks========================================================================================
+Nordpool/Epex/Hupx/Ice testcase execution doc.
+
+
+-----------------------------------------Task for May
+1.Message/deal loss detection/prevention solution:
+
+jar there for flink as kafka client
+method call -- kafka response getting but not storing the data 
+trayport enricher job (refer)
+env specific(dev/qa/prod)
+
+analysis document,unittest case doc,
+
+reproduce(send continious data to reproduce this issue)
+interfacejobs:ice-3,fenix-1,edge-1
+
+2.ICE Interface code restructuring
+
+-------------------------------------------Learn (Me/Vaishanavi/Nikita)
+connect with aakash
+client side(angular/jquery)
+
+task 1->table--->populate-->ui(grid format)50%
+task 2->edit -->update	25%
+task 3->insert new record in db	25%
+
+
+=trayport adapter/Epex/Hupx/Ice take control of these
+
+
+-------------------------------------------Kalpataru
+1.Sql server(install)
+2.flink
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
